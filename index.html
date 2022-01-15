@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elviredev Tools</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="256x256"
+      href="images/favicon.png"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="/index.html">
+          <img src="./images/profil.png" alt="profil avatar" />
+        </a>
+        <ul class="desktop-menu">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="#tools-front">Design UI</a>
+          </li>
+          <li>
+            <a href="#tools-full">Fullstack</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Hamburger Menu -->
+        <div class="mobile-menu">
+          <input
+            type="checkbox"
+            class="toggler"
+            role="checkbox"
+            aria-checked="false"
+            tabindex="0"
+          />
+          <div class="hamburger">
+            <div></div>
+          </div>
+          <div class="menu">
+            <div>
+              <div>
+                <ul>
+                  <li>
+                    <a href="/index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="#tools-front">Design UI</a>
+                  </li>
+                  <li>
+                    <a href="#tools-full">Fullstack</a>
+                  </li>
+                  <li>
+                    <a href="#services">Services</a>
+                  </li>
+                  <li>
+                    <a href="#Contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header/Hero -->
+    <header class="header">
+      <div class="header-inner">
+        <div class="container">
+          <h5>ElvireDev</h5>
+          <h1>
+            Tools for Development
+            <span class="text-primary">Frontend & Backend</span>
+          </h1>
+          <p class="lead">
+            Outils pour faciliter le développement d'application Web.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Outils Design UI -->
+    <section id="tools-front" class="tools-front bg-dark-pattern">
+      <div class="container">
+        <h2>Outils <span class="text-primary">Design UI</span></h2>
+
+        <div class="tools-grid"></div>
+
+        <!-- SHOW MORE -->
+        <div class="tools-grid-more more-design"></div>
+        <button class="btn btn-secondary btn-more-design">
+          Voir plus de sites
+        </button>
+      </div>
+    </section>
+
+    <!-- Outils Fullstack -->
+    <section id="tools-full" class="tools-back bg-gradient-violet">
+      <div class="container">
+        <h2 class="text-light">
+          Outils <span class="text-secondary">Fullstack</span>
+        </h2>
+        <div class="tools-grid-full"></div>
+
+        <!-- SHOW MORE -->
+        <div class="tools-grid-full-more more-fullstack"></div>
+        <button class="btn btn-primary btn-more-fullstack">
+          Voir plus de sites
+        </button>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section id="social" class="social bg-dark-pattern">
+      <div class="container">
+        <h3>Elviredev - contactez-moi</h3>
+        <div>
+          <a href="https://github.com/elviredev" target="_blank">
+            <span class="sr-only">GitHub</span>
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a
+            href="mailto:elviredev@gmail.com?subject=Mail ElvireDev Tools"
+            target="_blank"
+          >
+            <span class="sr-only">Gmail</span>
+            <i class="fas fa-at fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/datas.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
